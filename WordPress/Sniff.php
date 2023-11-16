@@ -19,6 +19,7 @@ use PHP_CodeSniffer\Sniffs\Sniff as PHPCS_Sniff;
  *
  * @since 0.4.0
  */
+#[\AllowDynamicProperties]
 abstract class Sniff implements PHPCS_Sniff {
 
 	/**
